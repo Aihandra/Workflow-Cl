@@ -29,5 +29,5 @@ jobs:
           cd MLProject
           mlflow run .
 
-          # Trigger dede lamana
+          # Trigger dede lama
 
