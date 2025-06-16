@@ -21,7 +21,7 @@ jobs:
         with:
           auto-update-conda: true
           environment-file: MLProject/conda.yaml
-          activate-environment: msml_env
+          activate-environment: mlflow_env
 
       - name: Run MLflow Project
         shell: bash -l {0}
