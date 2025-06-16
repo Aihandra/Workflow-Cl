@@ -24,6 +24,7 @@ jobs:
           activate-environment: msml_env
 
       - name: Run MLflow Project
+        shell: bash -l {0}
         run: |
           cd MLProject
-          mlflow run .        # ← tanpa --no-conda
+          mlflow run .
