@@ -29,5 +29,5 @@ jobs:
           cd MLProject
           mlflow run .
 
-          # Trigger rerun
+          # Trigger rerunkii
 
